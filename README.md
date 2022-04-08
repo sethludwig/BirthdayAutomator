@@ -11,5 +11,5 @@ Setup requires you to edit 'bot.py' and configure your username and password. Pl
 
 Additionally, you will need to utilize a scheduling service to run the script daily.
 
-For Windows, this means creating a scheduled task that executes this script. (https://datatofish.com/python-script-windows-scheduler/)
+For Windows, this means creating a scheduled task that executes this script. (https://datatofish.com/python-script-windows-scheduler/)  
 For Linux, you will need to create a cronjob. (https://www.geeksforgeeks.org/how-to-schedule-python-scripts-as-cron-jobs-with-crontab/)
