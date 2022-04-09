@@ -43,7 +43,7 @@ def send_message(driver):
     Submits random birthday message."""
     messages = ["Happy birthday!", "Hope you have an awesome birthday!",
     "Wishing you a very happy birthday!", "Another 365 days around the sun, congrats!"]
-    birthday_input = driver.find_elements_by_name('message')
+    birthday_input = driver.find_elements(By.NAME,'message')
     generate_info("INFORMATION", "Processing todays birthdays, and recent birthdays.")
 
     for row in birthday_input:
